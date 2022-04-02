@@ -1,0 +1,1229 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1806588800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Abro el navegador web",
+            "match": {
+              "location": "definitions.inicioDefinition.abroElNavegadorWeb()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-31T22:10:53.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 908540500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.hook.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Registro de ticket solo ida Puno a Cusco",
+        "description": "",
+        "id": "como-usuario-final-quiero-validar-las-funciones-del-booking;registro-de-ticket-solo-ida-puno-a-cusco;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4223130800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 81782000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "selecciono el tipo de viaje \"One Way\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"One Way\"",
+                  "offset": 28
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElTipoDeViaje(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114694000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecciono el destino \"Cusco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cusco\"",
+                  "offset": 22
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElDestino(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112699200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "selecciono la ruta \"Puno \u003e Cusco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Puno \u003e Cusco\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoLaRuta(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116687400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "selecciono el tren \"Andean Explorer, A Belmond Train\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Andean Explorer, A Belmond Train\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElTren(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438825800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "selecciono la fecha de salida \"20\" \"7\" \"2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 39
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoLaFechaDeSalida(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5958519300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "hago click en el botón Find Train Ticket",
+            "match": {
+              "location": "definitions.inicioDefinition.hagoClickEnElBotónFindTrainTicket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35902900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "se muestra del paso_2 Elige tu cabina",
+            "match": {
+              "location": "definitions.paso2Definition.seMuestraElPaso_2EligeTuCabina()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 396100500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "selecciono la cabina \"suite\" y la cantidad de pasajeros \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 56
+                }
+              ],
+              "location": "definitions.paso2Definition.seleccionoLaCabinaYLaCantidadDePasajeros(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14958300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "hago clic en el boton X del popUp",
+            "match": {
+              "location": "definitions.paso2Definition.cierroPopUpSiDeValidaciónDeCapacidadMaxima()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55849800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "hago clic en Purchase Summary en la pantalla 2",
+            "match": {
+              "location": "definitions.paso2Definition.hagoClicEnPurchaseSummaryEnLaPantalla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585809200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "valido que los montos sean iguales en el paso 2",
+            "match": {
+              "location": "definitions.paso2Definition.validoQueLosMontosSeanIgualesEnElPaso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2736696700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "hago click en el botón continue en el paso 2",
+            "match": {
+              "location": "definitions.paso2Definition.hagoClickEnElBotónContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117713300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "se muestra del paso_3 Datos del Pasajero",
+            "match": {
+              "location": "definitions.paso3Definition.seMuestraElPaso_3DatosDelPasajero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8505543900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "ingreso los datos del pasajero \"suite\" \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 39
+                }
+              ],
+              "location": "definitions.paso3Definition.ingresoLosDatosDelPasajero(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274240800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "hago click en el botón continue en el paso 3",
+            "match": {
+              "location": "definitions.paso3Definition.hagoClickEnElBotónContinueEnElPaso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2937779900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "se muestra del paso_4 Confirmacion y Pago",
+            "match": {
+              "location": "definitions.paso4Definition.seMuestraElPaso_4ConfirmacionyPago()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6000543200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "cierro la aplicacion",
+            "match": {
+              "location": "definitions.inicioDefinition.cierroLaAplicacion()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Todo"
+          },
+          {
+            "name": "@Peru_rail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1729045400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Abro el navegador web",
+            "match": {
+              "location": "definitions.inicioDefinition.abroElNavegadorWeb()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-31T22:11:28.622Z",
+        "before": [
+          {
+            "result": {
+              "duration": 578583300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.hook.setup()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Buscar fecha para el caso que no se tiene cabinas disponibles",
+        "description": "",
+        "id": "como-usuario-final-quiero-validar-las-funciones-del-booking;buscar-fecha-para-el-caso-que-no-se-tiene-cabinas-disponibles;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4218723700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 68816100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "selecciono el tipo de viaje \"One Way\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"One Way\"",
+                  "offset": 28
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElTipoDeViaje(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73802100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "selecciono el destino \"Cusco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cusco\"",
+                  "offset": 22
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElDestino(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102726200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "selecciono la ruta \"Puno \u003e Cusco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Puno \u003e Cusco\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoLaRuta(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98735400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "selecciono el tren \"Andean Explorer, A Belmond Train\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Andean Explorer, A Belmond Train\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElTren(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan class\u003d\"ui-icon ui-icon-circle-triangle-e\"\u003e...\u003c/span\u003e is not clickable at point (1333, 624). Other element would receive the click: \u003cdiv class\u003d\"ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d100.0.4896.60)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-Q7Q9A06\u0027, ip: \u0027192.168.18.130\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\Usuario\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: de31d5ba41381a46c63c1085278c07d6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.inicioPage.seleccionarFecha(inicioPage.java:67)\r\n\tat definitions.inicioDefinition.seleccionoLaFechaDeSalida(inicioDefinition.java:60)\r\n\tat ✽.selecciono la fecha de salida \"30\" \"3\" \"2022\"(file:///C:/Users/Usuario/IdeaProjects/automation-web-PeruRail/src/test/resources/Features/Login/PeruRail.feature:41)\r\n",
+              "duration": 1746317400,
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "selecciono la fecha de salida \"30\" \"3\" \"2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"30\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 39
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoLaFechaDeSalida(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "hago click en el botón Find Train Ticket",
+            "match": {
+              "location": "definitions.inicioDefinition.hagoClickEnElBotónFindTrainTicket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "se muestra del paso_2 Elige tu cabina",
+            "match": {
+              "location": "definitions.paso2Definition.seMuestraElPaso_2EligeTuCabina()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "se muestra que la cabina no esta disponible",
+            "match": {
+              "location": "definitions.paso2Definition.seMuestraQueLaCabinaNoEstaDisponible()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Todo"
+          },
+          {
+            "name": "@Peru_rail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1564087700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Abro el navegador web",
+            "match": {
+              "location": "definitions.inicioDefinition.abroElNavegadorWeb()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-31T22:11:37.251Z",
+        "before": [
+          {
+            "result": {
+              "duration": 579654900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.hook.setup()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Validar que se considere minimo 1 adulto",
+        "description": "",
+        "id": "como-usuario-final-quiero-validar-las-funciones-del-booking;validar-que-se-considere-minimo-1-adulto;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4202405700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60836900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "selecciono el tipo de viaje \"One Way\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"One Way\"",
+                  "offset": 28
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElTipoDeViaje(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75797600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "selecciono el destino \"Cusco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cusco\"",
+                  "offset": 22
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElDestino(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91755300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "selecciono la ruta \"Puno \u003e Cusco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Puno \u003e Cusco\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoLaRuta(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103721800,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "selecciono el tren \"Andean Explorer, A Belmond Train\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Andean Explorer, A Belmond Train\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElTren(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384971100,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "selecciono la fecha de salida \"20\" \"7\" \"2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 39
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoLaFechaDeSalida(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5173717900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "hago click en el botón Find Train Ticket",
+            "match": {
+              "location": "definitions.inicioDefinition.hagoClickEnElBotónFindTrainTicket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31915400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "se muestra del paso_2 Elige tu cabina",
+            "match": {
+              "location": "definitions.paso2Definition.seMuestraElPaso_2EligeTuCabina()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 439823300,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "selecciono la cabina \"suite\" y la cantidad de pasajeros \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 56
+                }
+              ],
+              "location": "definitions.paso2Definition.seleccionoLaCabinaYLaCantidadDePasajeros(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8976100,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "hago clic en el boton X del popUp",
+            "match": {
+              "location": "definitions.paso2Definition.cierroPopUpSiDeValidaciónDeCapacidadMaxima()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77819300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "selecciono la cantidad de mayores \"0\" de la cabina",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 34
+                }
+              ],
+              "location": "definitions.paso2Definition.seleccionoLaCantidadDeMayoresDeLaCabina(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56847400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "selecciona la cantidad de menores \"1\" de la cabina",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 34
+                }
+              ],
+              "location": "definitions.paso2Definition.seleccionaLaCantidadDeMenoresDeLaCabina(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59840500,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "hago clic en Purchase Summary en la pantalla 2",
+            "match": {
+              "location": "definitions.paso2Definition.hagoClicEnPurchaseSummaryEnLaPantalla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 580708600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "valido que los montos sean iguales en el paso 2",
+            "match": {
+              "location": "definitions.paso2Definition.validoQueLosMontosSeanIgualesEnElPaso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341087400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "hago click en el botón continue en el paso 2",
+            "match": {
+              "location": "definitions.paso2Definition.hagoClickEnElBotónContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1044875200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "se muestra popUp validando que no se tiene mayores seleccionados",
+            "match": {
+              "location": "definitions.paso2Definition.seMuestraPopUpValidandoQueNoSeTieneMayoresSeleccionados()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37899200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "hago clic en el boton X del popUp",
+            "match": {
+              "location": "definitions.paso2Definition.cierroPopUpSiDeValidaciónDeCapacidadMaxima()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Todo"
+          },
+          {
+            "name": "@Peru_rail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1549120900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Abro el navegador web",
+            "match": {
+              "location": "definitions.inicioDefinition.abroElNavegadorWeb()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-31T22:11:52.176Z",
+        "before": [
+          {
+            "result": {
+              "duration": 585456500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.hook.setup()"
+            }
+          }
+        ],
+        "line": 102,
+        "name": "Registro de ticket solo ida Arequipa a Puno a Cusco purchase summary",
+        "description": "",
+        "id": "como-usuario-final-quiero-validar-las-funciones-del-booking;registro-de-ticket-solo-ida-arequipa-a-puno-a-cusco-purchase-summary;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4068116500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 66821600,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "selecciono el tipo de viaje \"One Way\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"One Way\"",
+                  "offset": 28
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElTipoDeViaje(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70811200,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "selecciono el destino \"Cusco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cusco\"",
+                  "offset": 22
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoElDestino(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104721800,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "selecciono la ruta \"Arequipa \u003e Puno \u003e Cusco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arequipa \u003e Puno \u003e Cusco\"",
+                  "offset": 19
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoLaRuta(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466748700,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "selecciono la fecha de salida \"20\" \"8\" \"2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"8\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 39
+                }
+              ],
+              "location": "definitions.inicioDefinition.seleccionoLaFechaDeSalida(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7928010300,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "hago click en el botón Find Train Ticket",
+            "match": {
+              "location": "definitions.inicioDefinition.hagoClickEnElBotónFindTrainTicket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27924800,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "se muestra del paso_2 Elige tu cabina",
+            "match": {
+              "location": "definitions.paso2Definition.seMuestraElPaso_2EligeTuCabina()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 501688400,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "selecciono la cabina \"suite\" y la cantidad de pasajeros \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 56
+                }
+              ],
+              "location": "definitions.paso2Definition.seleccionoLaCabinaYLaCantidadDePasajeros(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9959700,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "hago clic en el boton X del popUp",
+            "match": {
+              "location": "definitions.paso2Definition.cierroPopUpSiDeValidaciónDeCapacidadMaxima()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54856300,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "hago clic en Purchase Summary en la pantalla 2",
+            "match": {
+              "location": "definitions.paso2Definition.hagoClicEnPurchaseSummaryEnLaPantalla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579215300,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "valido que los montos sean iguales en el paso 2",
+            "match": {
+              "location": "definitions.paso2Definition.validoQueLosMontosSeanIgualesEnElPaso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2396617400,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "hago click en el botón continue en el paso 2",
+            "match": {
+              "location": "definitions.paso2Definition.hagoClickEnElBotónContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104719800,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "se muestra del paso_3 Datos del Pasajero",
+            "match": {
+              "location": "definitions.paso3Definition.seMuestraElPaso_3DatosDelPasajero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2547968100,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "ingreso los datos del pasajero \"suite\" \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 39
+                }
+              ],
+              "location": "definitions.paso3Definition.ingresoLosDatosDelPasajero(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381999700,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "hago click en el botón continue en el paso 3",
+            "match": {
+              "location": "definitions.paso3Definition.hagoClickEnElBotónContinueEnElPaso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2665090700,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "se muestra del paso_4 Confirmacion y Pago",
+            "match": {
+              "location": "definitions.paso4Definition.seMuestraElPaso_4ConfirmacionyPago()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113666000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "selecciono el metodo de pago \"visa\" en el paso 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"visa\"",
+                  "offset": 29
+                }
+              ],
+              "location": "definitions.paso4Definition.seleccionoElMetodoDePagoEnElPaso(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62831400,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "hago click en el botón Ingresar Tarjeta del paso 4",
+            "match": {
+              "location": "definitions.paso4Definition.hagoClickEnElBotónIngresarTarjetaDelPaso()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3771589600,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "ingreso los datos de mi tarjeta \"visa\" \"454545454545\" \"03\" \"28\" \"999\" \"Pruebas manu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"visa\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"454545454545\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"03\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"28\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"999\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"Pruebas manu\"",
+                  "offset": 70
+                }
+              ],
+              "location": "definitions.paso4Definition.ingresoLosDatosDeMiTarjeta(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6001961900,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "cierro la aplicacion",
+            "match": {
+              "location": "definitions.inicioDefinition.cierroLaAplicacion()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Todo"
+          },
+          {
+            "name": "@Peru_rail_1"
+          }
+        ]
+      }
+    ],
+    "name": "Como usuario final quiero validar las funciones del booking",
+    "description": "",
+    "id": "como-usuario-final-quiero-validar-las-funciones-del-booking",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login/PeruRail.feature",
+    "tags": [
+      {
+        "name": "@Todo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
